@@ -1,0 +1,14 @@
+#Python speedtest
+
+from timeit import default_timer as timer
+
+def mytimer():
+
+	start= timer()
+	
+	for i in range(1000000):
+		print(i)
+		
+	print(end - start)
+	
+mytime()
